@@ -8,5 +8,5 @@ return document.querySelector('div .target')
 }
 
 function deepestChild() {
-  return document.querySelector('#grand-node div')
+  return document.querySelectorAll('#grand-node div')
 }
