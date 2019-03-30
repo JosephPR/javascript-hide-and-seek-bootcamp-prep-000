@@ -8,6 +8,6 @@ return document.querySelector('div .target')
 }
 
 function deepestChild() {
-  return document.getElementById('grand-node').children;
+  return document.getElementById('grand-node');
  
 }
