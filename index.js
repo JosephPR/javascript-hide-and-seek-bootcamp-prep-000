@@ -15,5 +15,5 @@ function deepestChild() {
     txt = txt + c[i].tagName + "<br>";
   }
 
-  document.getElementById("grand-node").innerHTML = txt;
+return txt
 }
