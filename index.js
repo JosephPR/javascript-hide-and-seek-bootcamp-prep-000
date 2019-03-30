@@ -8,12 +8,6 @@ return document.querySelector('div .target')
 }
 
 function deepestChild() {
-  var c = document.getElementById('grand-node').children;
-  var txt = "";
-  var i;
-  for (i = 0; i < c.length; i++) {
-    txt = txt + c[i].tagName + "<br>";
-  }
-
-return txt
+  return document.getElementById('grand-node').children;
+ 
 }
