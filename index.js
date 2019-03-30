@@ -1,1 +1,1 @@
-document.querySelector(selectors)
+document.querySelector(selector)
